@@ -18,6 +18,8 @@
 
 ## Partie 3 : Analyse du stockage  
 ### Q2.3.1  
+fichier perdu cmd : lsblk 
+
 ### Q2.3.2  
 udev utilise **devtmpfs**   
 tmpfs (sur /run) utilise **tmpfs**  
@@ -27,7 +29,10 @@ tmpfs (sur /run/lock) utilise **tmpfs**
 /dev/md0p1 utilise **ext2**  
 tmpfs (sur /run/users/0) utilise **tmpfs**   
 ### Q2.3.3  
-### Q2.3.4  ------------------------------
+![image](CaptureEcran/Exercice%202/Q.2.3.3.png)
+### Q2.3.4  
+![image](CaptureEcran/Exercice%202/Q.2.3.4-1.png)
+![image](CaptureEcran/Exercice%202/Q.2.3.4-2.png)
 ### Q2.3.5  
 Il reste **1.79Go** libre  
 
@@ -39,6 +44,8 @@ Il reste **1.79Go** libre
 
 ## Partie 5 : Filtrage et analyse réseau  
 ### Q.2.5.1  
+![image](CaptureEcran/Exercice%202/Q.2.5.1.png)
+
 regles appliquées   
 - une table nommé **inet_filter_table**  
 - une chaine nommée **in_chain**  
@@ -53,7 +60,12 @@ regles appliquées
 ** ip6 nexthdr ipv6-icmp accept** accepte toutes les connexions avec le protocol imcpv6  
 ### Q.2.5.3 type communication interdis  
 **ct state invalid drop** jeter (sans annoncer au destinataire) toutes les connexions invalides  
-### Q.2.5.4  ----------------------------
+### Q.2.5.4  
+![image](CaptureEcran/Exercice%202/Q.2.5.4-1.png)
+![image](CaptureEcran/Exercice%202/Q.2.5.4-2.png)
+
 
 ## Partie 6 : Analyse des logs  
 ### Q.2.6.1  
+![image](CaptureEcran/Exercice%202/Q.2.6.1.png)
+
