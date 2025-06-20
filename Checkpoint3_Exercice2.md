@@ -23,8 +23,8 @@ modification des lignes : PubKeyAuthentification yes et PasswordAuthentification
 
 ## Partie 3 : Analyse du stockage  
 ### Q2.3.1  
-fichier perdu cmd : lancement de la commande `lsblk`  
-impossible de retrouver car au moment ou j'ai finalisé la redaction de ce md, j'ai déjà fait des modifications sur le systeme  
+lancement de la commande `lsblk`  
+![image](CaptureEcran/Exercice%202/Q.2.3.1.png)
 ### Q2.3.2  
 udev utilise **devtmpfs**   
 tmpfs (sur /run) utilise **tmpfs**  
@@ -42,6 +42,7 @@ ensuite on créer le volume avec lvcreate
 et on le monte dans le directory avec mount    
 on cherche son UUID avec blkid   
 on modifie le fichier fstab avec l UUID  
+![image](CaptureEcran/Exercice%202/Q.2.3.4.png)
 ![image](CaptureEcran/Exercice%202/Q.2.3.4-1.png)
 ![image](CaptureEcran/Exercice%202/Q.2.3.4-2.png)
 ### Q2.3.5  
