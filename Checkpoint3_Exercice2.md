@@ -2,6 +2,7 @@
 
 ## Partie 1 : Gestion des utilisateurs  
 ### Q2.1.1  
+![image](CaptureEcran/Exercice%202/Q2.1.1.png)
 ### Q2.1.1  
 
 
