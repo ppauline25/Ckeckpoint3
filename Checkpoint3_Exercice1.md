@@ -17,7 +17,9 @@
 ### Q.1.2.2  
 ![image](CaptureEcran/Exercice%201/Q1.2.2.png)
 ### Q.1.2.3  
-![image](CaptureEcran/Exercice%201/Q1.2.3.png)
+![image](CaptureEcran/Exercice%201/Q1.2.3-1.png)
+![image](CaptureEcran/Exercice%201/Q1.2.3-2.png)
+
 
 ## Partie 3 : Lecteurs réseaux  
 ### Q.1.3.1  
