@@ -26,13 +26,8 @@ modification des lignes : PubKeyAuthentification yes et PasswordAuthentification
 lancement de la commande `lsblk`  
 ![image](CaptureEcran/Exercice%202/Q.2.3.1.png)
 ### Q2.3.2  
-udev utilise **devtmpfs**   
-tmpfs (sur /run) utilise **tmpfs**  
-/dev/mapper/cp3--vg-root utilise **ext4**    
-tmpfs (sur /dev/shm) utilise **tmpfs**   
-tmpfs (sur /run/lock) utilise **tmpfs**   
-/dev/md0p1 utilise **ext2**  
-tmpfs (sur /run/users/0) utilise **tmpfs**   
+Il y a du LVM.  
+![image](CaptureEcran/Exercice%202/Q.2.3.2.png)
 ### Q2.3.3  
 ajout du volume dans les configurations de virtual box directement + utilisation de commandes pour réparer le volume RAID  
 ![image](CaptureEcran/Exercice%202/Q.2.3.3.png)
@@ -81,7 +76,6 @@ Ajout d'une table, puis d'une chaine puis des regles
 
 ## Partie 6 : Analyse des logs  
 ### Q.2.6.1  
-utilisation de la commande lastb  
-(au préalable j'ai tenté des connexions avec des mauvais comptes et des faux mdp afin d'avoir du contenu pour cette commande)  
+utilisation de la commande lastb  + head -n 10 pour avoir les 10 derniers  
 ![image](CaptureEcran/Exercice%202/Q.2.6.1.png)
 
