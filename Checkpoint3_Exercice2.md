@@ -68,6 +68,7 @@ regles appliquées
 ** ip6 nexthdr ipv6-icmp accept** accepte toutes les connexions avec le protocol imcpv6  
 ### Q.2.5.3 type communication interdis  
 **ct state invalid drop** jeter (sans annoncer au destinataire) toutes les connexions invalides  
++ refuser toutes les connexions non autorisées (donc toutes sauf SSH ICMP localhost et connexions déjà établies)  
 ### Q.2.5.4  
 Ajout d'une table, puis d'une chaine puis des regles  
 ![image](CaptureEcran/Exercice%202/Q.2.5.4-1.png)
